@@ -1,0 +1,99 @@
+div {
+    text-align: center;
+    margin: 20px;
+  }
+  
+
+  table {
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+
+  table tr {
+    background-color: orange;
+  }
+
+  td:nth-child(odd) {
+    background-color: chocolate;
+  }
+ 
+  td:hover {
+    background-color: yellow;
+    cursor: pointer;
+  }
+  
+
+  /* sidebar */
+
+.sidebar {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 250px; 
+  background-color: #6e6e6e; 
+  color: white; 
+  padding: 20px;
+  margin: 0; 
+  height: 100%;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+/* CSS-стили для списка */
+.rating {
+  list-style: none;
+  padding: 0;
+}
+
+/* Стили для первого li (первое место) */
+.rating li:nth-child(1) {
+  background-color: #ffd700; /* Цвет фона для первого места */
+  font-weight: bold; /* Жирный шрифт для первого места */
+  margin-bottom: 10px; /* Отступ снизу для разделения элементов */
+  padding: 5px; /* Внутренний отступ для лучшего визуального восприятия */
+}
+
+/* Стили для второго li (второе место) */
+.rating li:nth-child(2) {
+  background-color: #c0c0c0; /* Цвет фона для второго места */
+  font-weight: bold; /* Жирный шрифт для второго места */
+  margin-bottom: 10px; /* Отступ снизу для разделения элементов */
+  padding: 5px; /* Внутренний отступ для лучшего визуального восприятия */
+}
+
+/* Стили для .rating-container */
+.rating-container {
+  margin-top: 20px; /* Отступ сверху */
+  text-align: center; /* Выравнивание текста по центру */
+}
+
+/* Стили для заголовка h3 */
+.rating-container h3 {
+  font-size: 1.5rem; /* Размер шрифта */
+}
+
+/* Стили для элемента span */
+.rating-container span {
+  font-weight: bold; /* Жирный шрифт */
+  display: block; /* Размещение в блоке (на новой строке) */
+  margin-top: 10px; /* Отступ сверху */
+}
